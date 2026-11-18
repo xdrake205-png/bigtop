@@ -1,12 +1,12 @@
-// BIG TOP — Run the Last Circus (best-game-01 entry, Node 22, standard library only):
-// the game is this directory's game/ folder, plain static files a desktop browser loads offline
-// (game/index.html and its ES modules, no library and no network request), and the program hands
-// it in. It copies game/ and screenshots/ from beside this file to /output and writes
-// /output/dossier.json, the summary the judge reads, with the vendored make.fun library.
-// BIG TOP: the last circus is one dropped prop from closing. One juggler, one verb — JUGGLING:
-// catch the falling props (balls, clubs, rings, torches) as they arc through the air, chain
-// perfect catches into combos up to x8, survive 8 performances and the boss The Critic, pick
-// 1-of-3 upgrades between performances, and earn a grade S/A/B victory.
+// BIG TOP — Run the Last Circus (best-game-01 entry; Node 22, standard library only).
+// The entrypoint hands in the game in game/: plain static files a desktop browser loads
+// offline (game/index.html and its ES modules — no library, no network request). It copies
+// game/ and screenshots/ from beside this file to /output and writes /output/dossier.json,
+// the summary the judge reads, using the vendored make.fun library.
+// The last circus is one dropped prop from closing — one juggler, one verb: JUGGLING.
+// Catch balls, clubs, rings and torches as they arc through the air, chain perfect catches
+// into combos up to x8, survive 8 performances and the boss The Critic, pick 1-of-3 upgrades
+// between performances, and earn a grade S/A/B victory.
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
